@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    background-color: #e9e5ec;
+    font-size: 13px;
+}
+
+.meuavatar > img{
+    border: 2px solid rgb(172, 83, 172);
+    border-radius: 50%;
+    width: 180px;
+    padding: 25.em;
+    margin-bottom: .9rem;
+}
+
+.meuavatar{
+    margin-top: 70px;
+    margin-bottom: 2.063rem;
+    text-align: center;
+}
+
+.meuavatar > p{
+    color: rgb(87, 23, 148);
+    font-size: 15px;
+    text-transform: initial;
+    font-weight: 400;
+}
+
+.links{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.00rem;
+
+}
+
+.links > a{
+    text-decoration: none;
+    color: purple;
+    border: 1px solid rgb(192, 154, 192);
+    padding: .5rem 10rem;
+    margin-bottom: .9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.social-links{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+    gap: 1.183rem;
+    padding-bottom: 2rem;
+
+}
