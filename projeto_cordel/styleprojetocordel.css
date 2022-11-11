@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;  /* 10% da altura na parte de cima - 10vh: 10% da altura*/  
+    padding-bottom: 10vh; /* 10% da altura na parte de baixo - 10vh: 10% da altura */ 
+    line-height: 2em;   /* Espaçamento duplo entre linhas */
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(148, 148, 189);
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.509);
+    width: 300px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
