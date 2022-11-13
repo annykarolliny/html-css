@@ -70,12 +70,12 @@ section.imagem{
 }
 
  section#imagem01{
-    background-image: url('../projeto_cordel/imagens/background001.jpg');
+    background-image: url('background001.jpg');
     background-position: center center;
  }
 
  section#imagem02{
-    background-image: url('../projeto_cordel/imagens/background002.jpg');
+    background-image: url('background002.jpg');
     background-position: center center;
  }
 
