@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de colunas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: 20px;
+            width: 400px;
+        }
+
+        .nome{
+            background-color: rgb(243, 230, 230);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>  <!-- Tag para agrupar colunas -->
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Vitória</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>João Carlos</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Desenvolvedora</td>
+        </tr>
+        <tr>
+            <td>Thiago Moraes</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Vendedor</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

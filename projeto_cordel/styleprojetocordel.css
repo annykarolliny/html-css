@@ -15,7 +15,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100vh; /* Tamanho mínimo do corpo */
     background-color: antiquewhite;
     font-family: var(--fonte1);
 }
@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+a:hover{ /* Ao passar o mouse, fica sublinhado */
     text-decoration: underline;
 }
 
