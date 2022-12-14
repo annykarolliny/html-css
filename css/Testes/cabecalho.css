@@ -14,7 +14,7 @@ main{
     height: 100vh;
     color: white;
     background-color: rgb(54, 87, 48);
-    background-image: url(fundo.png);
+    background-image: url(assets/fundo.png);
     background-position: center 40%;
     background-size: cover;
     background-origin: content-box;
