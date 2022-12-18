@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, cupiditate omnis mollitia illo error voluptatum optio porro architecto doloremque exercitationem et nulla, eum illum! Quibusdam reiciendis soluta dolores nostrum corrupti in, pariatur asperiores voluptate, voluptatibus cum earum quas nesciunt libero obcaecati animi odit porro aut voluptatem voluptates quos cupiditate. Atque quis praesentium corporis culpa deserunt corrupti, pariatur dicta sit voluptatum libero eius ullam iusto ea nam, rerum exercitationem, officiis tempore in assumenda enim quibusdam illum unde! Asperiores culpa similique, consequatur, laudantium quaerat sed suscipit repellat amet ex numquam molestiae sit rem voluptatem natus earum sequi velit vero voluptas. Ex, assumenda!</p>
+
+    <ul>
+        <li><a href="paginas_testes/teste01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas_testes/teste02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas_testes/teste03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officia alias, excepturi asperiores placeat similique porro tempore, quia velit eos accusamus perspiciatis, itaque neque esse reiciendis accusantium voluptatibus? Debitis, optio.</p>
+
+    <iframe src="" name="frame" srcdoc="<h1>Escolha alguma das opções acima</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officia alias, excepturi asperiores placeat similique porro tempore, quia velit eos accusamus perspiciatis, itaque neque esse reiciendis accusantium voluptatibus? Debitis, optio.</p>">  <!-- Necessário o nome (name) do objeto para inserir no target -->
+        <p>Infelizmente o seu navegador não é compatível.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolores sequi temporibus eligendi maxime deleniti, laudantium sunt corporis dignissimos nulla hic deserunt quibusdam similique! Vitae tempora cum laudantium minima maxime?</p>
+</body>
+</html>
