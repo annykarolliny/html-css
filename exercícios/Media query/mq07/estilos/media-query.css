@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* 
+Typical Device Brackpoints:
+
+Pequenas telas: até 600px
+Celular: de 600px até 767px
+Tablet: de 768px até 1023px
+Desktop: de 1024px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    div#left-login {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main > div#left-login > div#espaco-img-text{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    main > div#left-login > div#espaco-img-text > h1 {
+        font-size: 25px;
+    }
+
+    main > div#left-login > div#espaco-img-text > #image {
+        height: 60vh;
+        margin-left: 80px;
+    }
+
+    div#right-login {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    div#espaco-login {
+        height: 320px;
+        width: 370px;
+    
+    }
+
+    input {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    }
+}
