@@ -48,12 +48,14 @@ main > div#left-login > div#espaco-img-text > h1 {
     color: rgb(47, 240, 134); 
     font-family: var(--fonte2);
     font-size: 15px;
+    padding-left: 10px;
 }
 
 main > div#left-login > div#espaco-img-text > #image{
     height: 100px;
     margin-left: 40px;
     margin-top: 30px;
+    padding-right: 10px;
 }
 
 div#right-login {
