@@ -19,7 +19,7 @@ header {
 }
 
 header > div {
-    padding: 40px;
+    padding: 45px 15px 0px 15px;
 }
 
 header > div > h1 {
