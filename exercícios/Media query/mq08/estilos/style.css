@@ -39,13 +39,14 @@ header > div > h1, p{
 
 section {
     position: absolute;
-    top: 75%;
-    left: 25%;
+    top: 70%;
+    left: 50%;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: translate(-50%);
 }
 section > div {
     height: 300px;
